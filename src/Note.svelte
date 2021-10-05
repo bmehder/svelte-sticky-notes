@@ -14,7 +14,7 @@
   }
   textarea {
     height: 300px;
-    width: auto;
+    width: 100%;
     padding: 1.5rem;
     border: none;
     border-radius: 1em;
