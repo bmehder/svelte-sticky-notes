@@ -16,7 +16,7 @@
   textarea {
     height: 300px;
     width: 100%;
-    padding: 1.5rem;
+    padding: 1.5rem 2rem;
     resize: none;
     background-color: #ff8;
     border: none;
