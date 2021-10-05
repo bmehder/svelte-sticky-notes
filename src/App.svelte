@@ -2,6 +2,7 @@
   import Note from './Note.svelte'
 
   let allNotes = []
+  let themeColor = '#307ad5'
 
   function getNotes() {
     return JSON.parse(localStorage.getItem('stickynotes')) || []
@@ -14,7 +15,11 @@
   function addNote() {
     allNotes = [
       ...allNotes,
-      { id: Math.floor(Math.random() * 100000), content: '' },
+      {
+        id: Math.floor(Math.random() * 100000),
+        content: '',
+        themeColor: themeColor,
+      },
     ]
   }
 
