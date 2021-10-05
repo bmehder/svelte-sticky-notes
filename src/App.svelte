@@ -37,7 +37,7 @@
     <Note
       bind:content={note.content}
       on:blur={saveNotes}
-      on:dblclick={() => deleteNote(note.id)}
+      on:click={() => deleteNote(note.id)}
     />
   {/each}
   <button on:click={addNote}>+</button>
