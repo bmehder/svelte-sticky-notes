@@ -34,8 +34,8 @@
   }
   span {
     position: absolute;
-    top: -0.5em;
-    right: -0.5em;
+    top: -0.6em;
+    right: -0.6em;
     width: 1.2em;
     height: 1.2em;
     font-size: 2rem;
