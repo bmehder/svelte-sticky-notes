@@ -39,7 +39,7 @@
 
 <h1>Svelte Sticky Notes<br /><small>with Local Storage</small></h1>
 <main use:getNotesFromLocalStorage>
-  {#each allNotes as note}
+  {#each allNotes as note (note.id)}
     <Note
       bind:content={note.content}
       on:blur={saveNotes}

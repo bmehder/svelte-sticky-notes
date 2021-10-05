@@ -1,10 +1,11 @@
 <script>
+  import { slide } from 'svelte/transition'
   export let content
 </script>
 
 <article>
   <span on:click>&minus;</span>
-  <textarea bind:value={content} on:blur />
+  <textarea bind:value={content} on:blur transition:slide />
 </article>
 
 <style>
@@ -25,9 +26,11 @@
     font-family: inherit;
     font-size: 1rem;
     line-height: 1.5;
+    transition: box-shadow 200ms;
   }
   textarea:focus {
     outline: none;
+    box-shadow: 10px 20px 40px rgba(0, 0, 0, 0.25);
   }
   span {
     position: absolute;
@@ -43,8 +46,9 @@
     color: white;
     cursor: pointer;
     transition: transform 200ms;
-    border: 1px solid #555;
+    border: 1px solid #424242;
     border-radius: 50%;
+    z-index: 1;
   }
   span:hover {
     transform: scale(1.2);
