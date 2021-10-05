@@ -24,7 +24,7 @@
     border-bottom-right-radius: 4px;
     box-shadow: 0 0 7px rgba(0, 0, 0, 0.15);
     font-family: inherit;
-    font-size: 1rem;
+    font-size: 1.5rem;
     line-height: 1.5;
     transition: box-shadow 200ms;
   }
