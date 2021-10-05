@@ -31,11 +31,8 @@
   }
 
   const getNotesFromLocalStorage = () => (allNotes = getNotes())
-
-  $: console.log(allNotes)
 </script>
 
-<h1>Svelte Sticky Notes<br /><small>with Local Storage</small></h1>
 <main use:getNotesFromLocalStorage>
   {#each allNotes as note (note.id)}
     <Note
@@ -48,14 +45,9 @@
 </main>
 
 <style>
-  h1 {
-    margin: 1em auto;
-    text-align: center;
-    color: white;
-  }
   main {
     max-width: 1020px;
-    margin: auto;
+    margin: 2rem auto 0;
     display: grid;
     grid-template-columns: repeat(auto-fill, 300px);
     padding: 1.5rem;
