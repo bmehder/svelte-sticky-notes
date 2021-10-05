@@ -13,7 +13,8 @@
     position: relative;
   }
   textarea {
-    height: 200px;
+    height: 300px;
+    width: auto;
     padding: 1.5rem;
     border: none;
     border-radius: 1em;

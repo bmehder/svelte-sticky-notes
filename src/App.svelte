@@ -46,12 +46,12 @@
 <style>
   main {
     display: grid;
-    grid-template-columns: repeat(auto-fill, 200px);
+    grid-template-columns: repeat(auto-fill, 300px);
     padding: 1.5rem;
     gap: 1.5rem;
   }
   button {
-    height: 200px;
+    height: 300px;
     border: none;
     outline: none;
     background: rgba(0, 0, 0, 0.1);
