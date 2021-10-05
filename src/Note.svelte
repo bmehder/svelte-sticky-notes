@@ -19,7 +19,8 @@
     resize: none;
     background-color: #ff8;
     border: none;
-    border-radius: 1em;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
     box-shadow: 0 0 7px rgba(0, 0, 0, 0.15);
     font-family: inherit;
     font-size: 1rem;
