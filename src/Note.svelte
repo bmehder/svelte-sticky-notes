@@ -5,7 +5,7 @@
 
 <article>
   <span on:click>&minus;</span>
-  <textarea bind:value={content} on:blur transition:slide />
+  <textarea bind:value={content} on:blur out:slide />
 </article>
 
 <style>
