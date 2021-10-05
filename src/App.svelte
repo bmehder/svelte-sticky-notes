@@ -18,7 +18,6 @@
       {
         id: Math.floor(Math.random() * 100000),
         content: '',
-        themeColor: themeColor,
       },
     ]
   }
